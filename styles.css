@@ -120,12 +120,12 @@ li .details {
 
 
     /* From https://css.glass */
-    background: rgba(185, 185, 185, 0.45);
+    background: rgba(170, 170, 170, 0.45);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(7.6px);
     -webkit-backdrop-filter: blur(7.6px);
-    border: 1px solid rgba(185, 185, 185, 0.33);
+    border: 1px solid rgba(170, 170, 170, 0.33);
 
 }
 
