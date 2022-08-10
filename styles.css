@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url("./img/image-from-rawpixel-id-436020-jpeg.jpg");
+    background-image: url("./img/image_fundo.jpg");
     font-family: 'Roboto', sans-serif;
     background-repeat: no-repeat;
     background-color: #000;
@@ -21,11 +21,17 @@ ul {
 }
 
 /* FONTS */
-h1,
-h2,
-h3,
 .price {
     font-family: 'Roboto Serif';
+    text-transform: uppercase;
+    color: #2d2c2a;
+}
+
+h1,
+h2,
+h3
+{
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     color: #2d2c2a;
 }
@@ -45,13 +51,17 @@ section {
 }
 
 header h1 {
+    font-family: 'Open Sans', sans-serif;
     margin-bottom: 4px;
-    font-size: 28px;
+    font-size: 35px;
     line-height: 33px;
+    font-weight: bold;
 }
 
 header h1 span {
-    color: #995000;
+    /* color: #995000; */
+    color: #804200;
+    font-weight: bold;
 }
 
 header p {
@@ -115,10 +125,10 @@ li .details {
 
 
 /* From https://css.glass */
-background: rgba(255, 255, 255, 0.21);
+background: rgba(255, 255, 255, 0.45);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(9.4px);
--webkit-backdrop-filter: blur(9.4px);
-border: 1px solid rgba(255, 255, 255, 0.2);
+backdrop-filter: blur(7.6px);
+-webkit-backdrop-filter: blur(7.6px);
+border: 1px solid rgba(255, 255, 255, 0.33);
 }
