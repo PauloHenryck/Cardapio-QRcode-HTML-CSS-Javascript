@@ -21,18 +21,14 @@ ul {
 }
 
 /* FONTS */
-.price {
-    font-family: 'Roboto Serif';
-    text-transform: uppercase;
-    color: #2d2c2a;
-}
-
 h1,
 h2,
-h3 {
+h3,
+.price {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
-    color: #2d2c2a;
+    color: black;
+    /* color: #2d2c2a; */
 }
 
 /* HEADER */
@@ -110,7 +106,7 @@ li .details {
 }
 
 .details p {
-    color: rgba(0, 0, 0, 0.7);
+    color: rgba(0, 0, 0, 0.8);
     font-size: 14px;
     line-height: 21px;
     font-weight: bold;
@@ -135,23 +131,23 @@ li .details {
 
 
 /* ===== Scrollbar CSS ===== */
-  /* Firefox */
-  * {
+/* Firefox */
+* {
     scrollbar-width: auto;
     scrollbar-color: #adadad #e6e6e6;
-  }
+}
 
-  /* Chrome, Edge, and Safari */
-  *::-webkit-scrollbar {
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
     width: 7px;
-  }
+}
 
-  *::-webkit-scrollbar-track {
+*::-webkit-scrollbar-track {
     background: #e6e6e6;
-  }
+}
 
-  *::-webkit-scrollbar-thumb {
+*::-webkit-scrollbar-thumb {
     background-color: #adadad;
     border-radius: 10px;
     border: 3px none #000000;
-  }
+}
