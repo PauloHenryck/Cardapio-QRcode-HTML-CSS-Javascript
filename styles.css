@@ -9,7 +9,7 @@ body {
     font-family: 'Roboto', sans-serif;
     background-repeat: no-repeat;
     background-color: #000;
-    background-size:cover;
+    background-size: cover;
     color: #000;
     padding: 15px;
 
@@ -29,8 +29,7 @@ ul {
 
 h1,
 h2,
-h3
-{
+h3 {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     color: #2d2c2a;
@@ -124,11 +123,35 @@ li .details {
     padding: 8px;
 
 
-/* From https://css.glass */
-background: rgba(255, 255, 255, 0.45);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(7.6px);
--webkit-backdrop-filter: blur(7.6px);
-border: 1px solid rgba(255, 255, 255, 0.33);
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.45);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.6px);
+    -webkit-backdrop-filter: blur(7.6px);
+    border: 1px solid rgba(255, 255, 255, 0.33);
+
 }
+
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #adadad #e6e6e6;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 7px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #e6e6e6;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #adadad;
+    border-radius: 10px;
+    border: 3px none #000000;
+  }
