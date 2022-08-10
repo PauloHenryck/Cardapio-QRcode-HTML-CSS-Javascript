@@ -1,4 +1,4 @@
-<h1 align="center">Projeto Cardapio QRcode</h1>
+<h1 align="center">Projeto Cardápio QRcode</h1>
 
 ###
 
