@@ -5,14 +5,20 @@
 }
 
 body {
-    background-color: rgb(197, 193, 193);
+    background-image: url("./img/image-from-rawpixel-id-436020-jpeg.jpg");
     font-family: 'Roboto', sans-serif;
+    background-repeat: no-repeat;
+    background-color: #000;
+    background-size:cover;
+    color: #000;
+
 }
 
 ul {
     list-style: none;
 
 }
+
 /* FONTS */
 h1,
 h2,
@@ -47,12 +53,14 @@ header h1 span {
     color: #995000;
 }
 
-header p{
+header p {
     font-size: 14px;
     line-height: 16px;
     font-weight: bold;
-    
+
     color: rgba(0, 0, 0, 0.7);
+
+
 }
 
 /* SECTION */
@@ -69,6 +77,9 @@ section h2 {
 
     margin-bottom: 24px;
     /* espaço abaixo de 24px*/
+
+    border-radius: 20px;
+    box-shadow: -1.5px 2px 0 #888, -2.5px 3.5px 0 #333;
 }
 
 
@@ -88,10 +99,24 @@ li .details {
     font-size: 16px;
 }
 
-.details p{
-    color: rgba(0, 0, 0, 0.6);
+.details p {
+    color: rgba(0, 0, 0, 0.7);
     font-size: 14px;
     line-height: 21px;
     font-weight: bold;
-    
+
+}
+
+.container__glass {
+    max-width: 380px;
+    margin: 0 auto;
+    padding: 8px;
+
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.21);
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
 }
