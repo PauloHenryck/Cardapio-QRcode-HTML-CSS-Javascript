@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #FFEDD5;
+    background-color: rgb(197, 193, 193);
     font-family: 'Roboto', sans-serif;
 }
 
@@ -61,7 +61,7 @@ section {
 }
 
 section h2 {
-    background-color: #FED7AA;
+    background-color: #e2dfdc;
     font-size: 18px;
     padding: 8px 16px;
     /* 8 encima e enbaixo e 16 dos lados*/
